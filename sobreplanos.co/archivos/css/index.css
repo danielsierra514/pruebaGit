@@ -1,0 +1,150 @@
+
+body,html {
+	width:100%;
+  height:100%;
+  max-height:100%;
+  max-width:100%;
+  position:relative;
+	background-image: none;
+	overflow:hidden
+}
+
+#fondo {
+  width:100%;
+  height:100%;
+  position:absolute;
+	z-index:10;
+}
+
+#sobreFondo {
+  width:100%;
+  height:100%;
+  position:absolute;
+	background-color: transparent;
+	z-index: 20;
+}
+#subSobreFondo{
+	position:relative;
+	display:inline-block;
+	width:100%;
+	height: 100%;
+	padding-top:50px;
+}
+#mainInvitacion{
+	position:absolute;
+	bottom:140px;
+}
+
+
+#logoSecundario{
+  height:100%;
+}
+#logoPrincipal{
+  height:100%;
+}
+
+.btn-success{
+	background-image:none;
+	background-color:#3d3535;
+		color:white;
+	border:0px;
+	font-weight:normal;
+}
+.btn-success:hover{
+	background-image:none;
+	background-color:#3d3535;
+	font-weight:bold;
+	color:white;
+	border:0px;
+}
+
+.thumbnail{
+	background-color: transparent;
+	border:0px;
+	height:55px;
+	max-height:55px;
+}
+.thumbnail img{
+	max-height:50px;
+}
+.cerrar{
+		color:#96C93D;
+}
+.cerrar:hover{
+		font-weight:bold;
+			color:#96C93D;
+}
+a:focus{
+	border:2px solid #96C93D !important;
+	text-decoration:none
+}
+a:active{
+	border:0px;
+	text-decoration:none
+}
+li{
+	border:0px;
+}
+
+#social-icons{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#social-icons a{
+	margin-left:10px;
+	z-index:20000
+}
+.modal {
+	z-index:22000
+}
+.navbar-brand{
+	padding:3px 10px;
+}
+
+.noPadding{
+	padding-left:2px !important;
+	padding-right:2px !important;
+}
+.form-controlX{
+	height:44px;
+	
+}
+.input-group-addonX{
+	background-color:#222222;
+	color:#D6D6D6;
+	font-size:22px;
+	border:0;
+	min-width:100px;
+}
+
+h1{
+	font-size:50px;
+	color:white;
+	text-align:center;
+}
+
+.btn-primaryX{
+	background-image: none;
+	background-color: #bc2b2b;
+	border:#bc2b2b;
+	font-size:24px;
+}
+.btn-primary:hover,.btn-success:active{
+	background-image: none;
+	background-color: #282529;
+	border:#282529;
+	
+}
+.campoError {
+	background-color: #bab7c9 !important;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+#loadingX{
+	color:#7F74B4 !important;
+	display:none;
+	margin:auto;
+}

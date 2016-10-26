@@ -1,0 +1,245 @@
+
+body,html {
+	width:100%;
+  height:100%;
+  max-height:100%;
+  max-width:100%;
+  position:relative;
+	background-image: none;
+
+}
+
+#fondo {
+  width:100%;
+  height:100%;
+  position:relative;
+	z-index:10;
+}
+
+#sobreFondo {
+  width:100%;
+  height:100%;
+  position:absolute;
+	background-color: transparent;
+	z-index: 20;
+	top:0
+}
+#subSobreFondo{
+	position:relative;
+	display:inline-block;
+	width:100%;
+	height: 100%;
+}
+#mainInvitacion{
+	position:absolute;
+	bottom:140px;
+}
+#fondo1 {
+  width:100%;
+  height:100%;
+  position:relative;
+	z-index:10;
+	background-color: red;
+}
+#fondo2 {
+  width:100%;
+  height:100%;
+  position:relative;
+	z-index:10;
+	background-color: blue;
+}
+#fondo3 {
+  width:100%;
+  height:100%;
+  position:relative;
+	z-index:10;
+	background-color: green;
+}
+
+#sobreFondo {
+  width:100%;
+  height:100%;
+  position:absolute;
+	background-color: transparent;
+	z-index: 20;
+}
+#subSobreFondo{
+	position:relative;
+	display:inline-block;
+	width:100%;
+	height: 100%;
+}
+#mainInvitacion{
+	position:absolute;
+	bottom:140px;
+}
+
+.bloque{
+	padding:10px;
+  margin-top:15px;
+		-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=88)";
+  filter: alpha(opacity=88);
+  -moz-opacity: 0.88;
+  -khtml-opacity: 0.88;
+  opacity: 0.88; 
+  background-color:#222222;
+  color:white;
+}
+#logoSecundario{
+  height:100%;
+}
+#logoPrincipal{
+  height:100%;
+}
+.modal-content{
+	background-color:#222222;
+	color:#96C93D
+}
+
+.btn-success{
+	background-image:none;
+	background-color:#3d3535;
+		color:white;
+	border:0px;
+	font-weight:normal;
+}
+.btn-success:hover{
+	background-image:none;
+	background-color:#3d3535;
+	font-weight:bold;
+	color:white;
+	border:0px;
+}
+h1{
+	font-size:16px;
+	text-align:left;
+}
+.modal-header {
+    border-bottom: 1px solid black;
+}
+.modal-footer {
+    border-top: 1px solid black
+}
+input[type=text], textarea {
+   background-color:black !important;
+	border:0px!important;
+	color:white !important;
+
+}
+.thumbnail{
+	background-color: transparent;
+	border:0px;
+	height:55px;
+	max-height:55px;
+}
+.thumbnail img{
+	max-height:50px;
+}
+.cerrar{
+		color:#96C93D;
+}
+.cerrar:hover{
+		font-weight:bold;
+			color:#96C93D;
+}
+a:focus{
+	border:2px solid #96C93D !important;
+	text-decoration:none
+}
+a:active{
+	border:0px;
+	text-decoration:none
+}
+li{
+	border:0px;
+}
+
+#social-icons{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#social-icons a{
+	margin-left:10px;
+	z-index:20000
+}
+.modal {
+	z-index:22000
+}
+.navbar-brand{
+	padding:3px 10px;
+}
+
+.noPadding{
+	padding-left:2px !important;
+	padding-right:2px !important;
+}
+.form-control{
+	height:44px;
+	
+}
+.input-group-addon{
+	background-color:#222222;
+	color:#D6D6D6;
+	font-size:22px;
+	border:0;
+	min-width:100px;
+}
+
+h1{
+	font-size:50px;
+	color:white;
+	text-align:center;
+}
+
+.btn-primary{
+	background-image: none;
+	background-color: #bc2b2b;
+	border:#bc2b2b;
+	font-size:24px;
+}
+.btn-primary:hover,.btn-success:active{
+	background-image: none;
+	background-color: #282529;
+	border:#282529;
+	
+}
+.campoError {
+	background-color: #bab7c9 !important;
+}
+#mapaCliente{
+	width:100%;
+	height:70%;
+}
+#tiraProyectos{
+	width:100%;
+	height:30%;
+}
+#logoCliente{
+	position:absolute;
+	width:20%;
+	z-index:5000;
+}
+#logoCliente img{
+	width:100%
+}
+.thumbImage{
+	width:300px;
+	height:204px;
+	display:inline-block;
+}
+.thumbImage img{
+	widows: 100%;
+	height:100%;
+}
+.subSection{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.section{
+	position:relative
+}

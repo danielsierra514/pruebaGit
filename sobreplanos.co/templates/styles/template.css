@@ -1,0 +1,270 @@
+ /*****************************TABS********/
+ 
+ .with-nav-tabs {
+   background-color: transparent;
+   border: 0px
+ }
+ 
+ .with-nav-tabs .panel-heading {
+   padding: 0;
+   border-bottom: 0;
+   background-color: transparent;
+   z-index: 1000;
+ }
+ 
+ .with-nav-tabs .panel-heading li a {
+   margin-right: -2px;
+   color: white;
+   background-color: transparent;
+   border: 3px solid transparent;
+   font-weight: normal;
+   font-size: 18px;
+ }
+ 
+ .with-nav-tabs .panel-heading li a:hover {
+   border: 3px solid white;
+   background-color: white;
+   color: black
+ }
+ 
+ .with-nav-tabs .nav-tabs>li.active>a,
+ .with-nav-tabs .nav-tabs>li.active>a:hover,
+ .with-nav-tabs .nav-tabs>li.active>a:focus {
+   background-color: white;
+   border: 3px solid white;
+   color: black;
+ }
+ 
+ .with-nav-tabs .panel-body {
+   text-align: justify;
+   color: white;
+   background-color: transparent;
+   border: 3px solid white !important;
+   -webkit-border-radius: 8px;
+   -webkit-border-top-left-radius: 0;
+   -moz-border-radius: 8px;
+   -moz-border-radius-topleft: 0;
+   border-radius: 8px;
+   border-top-left-radius: 0;
+   max-height: 100%;
+   height: 100%;
+   z-index: 0;
+   padding: 20px 20px 20px 20px !important
+ }
+ 
+ .with-nav-tabs .panel-body h3 {
+   text-align: justify;
+   font-size: 28px;
+ }
+ 
+ .with-nav-tabs .panel-body p {
+   text-align: justify;
+   font-size: 18px;
+   padding: 30px;
+ }
+ 
+ .with-nav-tabs .tab-pane {
+   height: 100%;
+   overflow-y: auto;
+ }
+ 
+ .with-nav-tabs .nav-tabs {
+   border-bottom: 3px solid #ddd;
+ }
+ /**********CARRUSEL**********/
+ 
+ .carousel {
+   padding: 0 !important;
+   text-align: justify;
+   color: white;
+   background-color: transparent !important;
+   border: 3px solid white;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   height:300px;
+
+ }
+ 
+ .carousel .item {
+   height: 100%;
+   padding: 80px 40px 40px 40px;
+ }
+ 
+ .carousel .item h3 {
+   text-align: justify;
+   font-size: 26px;
+   margin-top: 40px;
+   margin-left: 40px;
+   position: absolute;
+   top: -10px;
+ }
+ 
+ .carousel-inner {
+   height: 100%;
+ }
+ 
+ .carousel .panel-heading h3 {
+   text-align: justify;
+   font-size: 26px;
+   margin-top: 80px;
+   margin-left: 160px;
+ }
+ 
+ .carousel p {
+   text-align: justify;
+   font-size: 20px;
+   margin-top: 20px;
+   margin-left: 110px;
+   margin-right: 110px;
+ }
+ 
+ .carousel .carousel-control {
+   background-color: transparent;
+   background-image: none;
+ }
+ 
+ .carousel .carousel-indicators li {
+   width: 20px;
+   height: 20px;
+ }
+/***********HORIZONTABLE************/
+
+
+
+ /**********THUMBNAILS**********/
+ 
+ .listadorThumbnails {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    top: 0;
+    height: 100%
+  }
+  
+  .transparent {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+  }
+  
+  .thunbnailA {
+    position: relative;
+    padding: 6px;
+    background-color: #222222;
+    color: #D6D6D6;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .thumbnailAImagen {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .thumbnailAImagen img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .leyendaThumbnailA {
+    position: absolute;
+    width: 100%;
+    top: 220px;
+    height: 100%;
+    background-color: black;
+    z-index: 1000;
+    font-size: 12px;
+    padding: 6px;
+  }
+
+
+/*************THUMBNAILS2**********/
+  .tiraImagenesX{
+    text-align: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height:135px;
+    padding-bottom: 4px;
+  }
+  .thumbnailX{
+    height: 100%;
+    width: 350px;
+    display: inline-block;
+    background-color: white;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-left:5px;
+     -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+    
+  }
+.noPad{
+  margin-right: 0;
+  margin-left: 0;
+}
+   .thumbnailX img{
+    width: 100%;
+     max-height:100%; 
+  }
+
+ .transparent {
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+   filter: alpha(opacity=90);
+   -moz-opacity: 0.9;
+   -khtml-opacity: 0.9;
+   opacity: 0.9;
+ }
+ 
+ .thunbnailA {
+   position: relative;
+   padding: 6px;
+   background-color: #222222;
+   color: #D6D6D6;
+   margin-right: 10px;
+   margin-bottom: 20px;
+   overflow: hidden;
+ }
+ 
+ .thumbnailAImagen {
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .thumbnailAImagen img {
+   max-width: 100%;
+   max-height: 100%;
+ }
+ 
+ .leyendaThumbnailA {
+   position: absolute;
+   width: 100%;
+   top: 220px;
+   height: 100%;
+   background-color: black;
+   z-index: 1000;
+   font-size: 12px;
+   padding: 6px;
+ }
+ 
+ .noPadding {
+   padding: 0;
+ }
+ 
+ @media only screen and (max-width: 900px) {
+   .carousel p {
+     text-align: justify;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-left: 40px;
+     margin-right: 40px;
+   }
+ }
+.maxWidth{
+  width:100%
+}
